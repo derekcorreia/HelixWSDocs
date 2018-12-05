@@ -28,16 +28,16 @@ The following steps are required for creating the Events module in Visual studio
     1. Open properties for the web.config and /views/web.config files
     2. Set “Build Action” to “None”
 6. Add configuration files
-    1. Under App_Config/Include, create a folder named “Feature”.
+    1. Create the following folder structure: **`/App_Config/Include/Feature`**.
 7. Add Sitecore Kernel NuGet reference
     1. Right-click the project and select "Manage NuGet Packages"
-    1. Change package source to the Sitecore NuGet feed
-        1. See https://doc.sitecore.net/sitecore_experience_platform/developing/developing_with_sitecore/sitecore_public_nuget_packages_faq
+    1. Change package source to the Sitecore NuGet feed (note: you may not need to change the source specifically if you have "All" sources selected)
+        1. See https://doc.sitecore.com/developers/91/sitecore-experience-management/en/sitecore-public-nuget-feed-faq.html
     1. Click Browse 
     1. Find and install Sitecore.Kernel, and select version 12.0.0 
     1. Find and install Sitecore.Mvc, and select version 12.0.0
 7. Set publish options
-    1. Copy the “/Properties/PublishProfiles” folder from the Project/Sitecore.Demo.Group project into the same place in the Sitecore.Feature.Events project
+    1. Copy the **`/Properties/PublishProfiles`** folder from the Project/Sitecore.Demo.Group project into the same place in the Sitecore.Feature.Events project
 8. Publish the project (note -- we're using Gulp in this workshop to do publishing and deployment, not Web Deploy)
     1. Save the Visual Studio solution
     1. In the Task Runner window, run “Publish all Projects”. If Task Runner Explorer isn't visible in your workspace, you can add it by selecting View -> Other Windows -> Task Runner Explorer in Visual Studio.
