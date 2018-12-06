@@ -8,7 +8,7 @@ In this exercise we will investigate how to set up a new theme for a project mod
     1. In Visual Studio open the **`Sitecore.Demo.Group`** solution
     1. In the Visual Studio Task Runner, run the "Auto-Publish-Css" task
     1. Add a "SCSS Style Sheet (SASS)" called "Sweden" to **`/Project/Sitecore.Demo.Group/styles`**
-    1. Right click the `Sweden.scss` file and compile it using the Visual Studio Web Compiler
+    1. Right click the **`Sweden.scss`** file and compile it using the Visual Studio Web Compiler
     1. Notice how the Visual Studio Task Runner has published the css file to the website
 1. Create the Sitecore theme
     1. In Sitecore under **`/sitecore/system/settings/project/themes/group`** create a new Theme "Sweden"
