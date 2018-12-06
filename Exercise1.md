@@ -28,7 +28,7 @@ The following steps are required for creating the Events module in Visual studio
     1. Open properties for the web.config and /views/web.config files
     2. Set “Build Action” to “None”
 6. Add configuration files
-    1. Create the following folder structure under Events: **`/App_Config/Include/Feature`**.
+    1. Create the following folder structure under Sitecore.Feature.Events: **`/App_Config/Include/Feature`**.
 7. Add Sitecore Kernel NuGet reference
     1. Right-click the project and select "Manage NuGet Packages"
     1. Change package source to the Sitecore NuGet feed (note: you may not need to change the source specifically if you have "All" sources selected)
