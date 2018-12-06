@@ -5,7 +5,7 @@ In this exercise we create the data model for the Events feature module and wire
 ## Working with feature templates
 
 1. In Sitecore:
-    1. Create a template named "_Event" under "/Sitecore/Templates/Feature/Events"
+    1. Create a template named "_Event" under **`/Sitecore/Templates/Feature/Events`**
     1. Add the following fields in a group named "Event": 
         * Title: single-line text
         * Description: rich text
@@ -20,7 +20,7 @@ In this exercise we create the data model for the Events feature module and wire
     1. Add the template and field constants. [See this file](https://github.com/Sitecore/Sitecore.Demo.Group/blob/feature/events/src/Feature/Events/code/Templates.cs)
     1. Update the IDs in the Templates.cs file to match the ID's of your template and fields.
 3. Under /templates in Sitecore:
-    1. Create a new "Event" page type template under "/sitecore/templates/project/group/page types"
+    1. Create a new "Event" page type template under **`/sitecore/templates/project/group/page types`**
         * Add the following base templates
             * templates/feature/events/_Event
             * templates/feature/metadata/_PageMetadata
