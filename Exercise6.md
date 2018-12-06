@@ -8,7 +8,7 @@ In this exercise, we will add an additional site to the solution to support a co
    * Create new language: *Swedish (Sweden): Svenska (Sverige)*: `sv-SE`
 1. Switch to Swedish in the Language selector in Sitecore
 1. Move to **`/Sitecore/Content/Group`**
-    1. Create new Home page "Sweden" under `/Sitecore/Content/Group`
+    1. Create new Home page "Sweden" under **`/Sitecore/Content/Group`**
         - Update the fields with [Swedish text](http://xn--lkss-soa3h.vogelius.se/) (or use some [Lorem Ipsum](https://www.lipsum.com/) so you can identify the new version.)
     1. Verify that the site is visible on http://group.dev.local/sv-SE/Sweden
 1. Add Swedish version to **`/Sitecore/Content/Group`**
