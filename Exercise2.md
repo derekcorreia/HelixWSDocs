@@ -4,7 +4,7 @@ In this exercise we hook up the new feature module to work with items in Sitecor
 
 ## Working with Items in Sitecore
 
-1. Log in to your Sitecore instance at group.dev.local. From the launchpad, open the Content Editor.
+1. Log in to your Sitecore instance at http://group.dev.local/sitecore. From the launchpad, open the Content Editor.
     1. Create the folder **`/sitecore/templates/Feature/Events`**
     1. Create the folder **`/sitecore/layout/renderings/Feature/Events`**
 1. Open the Feature project in Visual Studio 
