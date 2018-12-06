@@ -5,7 +5,7 @@ In this exercise, we will create the renderings to show the feature content and 
 ## Configuring Renderings for feature modules
 
 1. In the feature module project in Visual Studio 
-    1. Add the following references: 
+    1. Add or validate the following references in the project: 
         * Sitecore.Kernel (referenced via NuGet)
         * Sitecore.Mvc (referenced via NuGet)
         * Sitecore.Foundation.Dictionary (available in the /lib folder of your Sitecore.Demo.Group folder)
@@ -17,14 +17,14 @@ In this exercise, we will create the renderings to show the feature content and 
         * EventList.cshtml - [See content](https://github.com/Sitecore/Sitecore.Demo.Group/blob/feature/events/src/Feature/Events/code/Views/Events/EventList.cshtml)
     3. Publish the project to the website
 2. Under /layout in Sitecore 
-    1. Create the following view renderings under `/sitecore/layout/renderings/feature/events`
+    1. Create the following view renderings under **`/sitecore/layout/renderings/feature/events`**
         * Event Content
-            * Set the Path to `/views/events/eventcontent.cshtml`
+            * Set the Path to **`/views/events/eventcontent.cshtml`**
         * Venue
-            * Set the Path to `/views/events/venue.cshtml`
+            * Set the Path to **`/views/events/venue.cshtml`**
         * Event List
-            * Set the Path to `/views/events/eventlist.cshtml`
-3. In Sitecore, under `/sitecore/templates/project/group/Page Types`
+            * Set the Path to **`/views/events/eventlist.cshtml`**
+3. In Sitecore, under **`/sitecore/templates/project/group/Page Types`**
     1. Open the presentation details of the Standard Values for the "Article" page type
         * Click "Copy To" on the shared layout for the default device
         * Select the "Event" page type as the target - (Create Standard Values for "Event" if it doesn't exists).
@@ -34,8 +34,8 @@ In this exercise, we will create the renderings to show the feature content and 
             * Page Title
             * Page Body
         * Add the following renderings:
-            * renderings/feature/Events/Event Content (placeholder: /page-layout/section/col-wide-1)
-            * renderings/feature/Events/Venue (placeholder: /page-layout/section/col-narrow-1)
+            * **`renderings/feature/Events/Event Content`** (placeholder: **`/page-layout/section/col-wide-1`**)
+            * **`renderings/feature/Events/Venue`** (placeholder: **`/page-layout/section/col-narrow-1`**)
     1. Open the presentation details of the Standard Values for the "News List" page type
         * Click "Copy To" on the shared layout for the default device
         * Select the "Event List" page type as the target
@@ -43,5 +43,5 @@ In this exercise, we will create the renderings to show the feature content and 
         * Remove the following renderings from Event List's Standard Values:
             * News List
         * Add the following renderings:
-            * renderings/feature/Events/Event List (placeholder: col-huge)
+            * **`renderings/feature/Events/Event List`** (placeholder: col-huge)
 3. Open the group website and navigate to the "Events" page in the top menu
