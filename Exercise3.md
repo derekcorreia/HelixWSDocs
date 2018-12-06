@@ -44,6 +44,6 @@ In this exercise we create the data model for the Events feature module and wire
 3. Under /content in Sitecore
     1. Create a new page "Events" under the home page for the group site
         * Use the "Event List" template
-        * Make sure the Title and Navigation Title fields are populated with "Events"
+        * Make sure the Title and Navigation Title (displayed as "Short title") fields are populated with "Events"
     2. Create some test events under the newly created event list page
 4. Serialize your changes by running the Sync Unicorn task in Task Runner Explorer
