@@ -10,8 +10,9 @@ In this exercise, we will add an additional site to the solution to support a co
 1. Move to **`/Sitecore/Content/Group`**
     1. Create new Home page "Sweden" under **`/Sitecore/Content/Group`**
         - Update the fields with [Swedish text](http://xn--lkss-soa3h.vogelius.se/) (or use some [Lorem Ipsum](https://www.lipsum.com/) so you can identify the new version.)
-    1. Verify that the site is visible on http://group.dev.local/sv-SE/Sweden
-1. Add Swedish version to **`/Sitecore/Content/Group`**
+    1. Verify that the site is visible on http://group.dev.local/sv-SE/Sweden. You should see some content coming back, but no styles as of yet.
+1. Add Styles to your new site
+    1. Add a Swedish version to **`/Sitecore/Content/Group`**
     1. Update fields, ensuring a theme is selected.
     1. Verify that the site is ok on http://group.dev.local/sv-SE/Sweden
 1. Setup Site definition and IIS binding
@@ -29,7 +30,7 @@ In this exercise, we will add an additional site to the solution to support a co
         - set `name="sweden"`
     1. Run the default gulp task to rebuild and publish your changes.
     1. Verify that the site is visible on http://sweden.dev.local
-        * Use the Site menu to navigate between the Swedish and English site
+        * Use the Site menu ( Home Icon ) to navigate between the Swedish and English site. If your English site is displaying similar to the Swedish site, make sure to clear your cookies.
 1. Create Swedish Dictionary texts
     1. Locate the **`/sitecore/content/group/global/dictionary`**
     1. Add the following to `<site name='sweden'>` in **`/App_Config/Include/Project/z.Sitecore.Demo.Group.DevSettings.config`**
