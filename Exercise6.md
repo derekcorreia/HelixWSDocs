@@ -15,8 +15,8 @@ In this exercise, we will add an additional site to the solution to support a co
     1. Update fields, ensuring a theme is selected.
     1. Verify that the site is ok on http://group.dev.local/sv-SE/Sweden
 1. Setup Site definition and IIS binding
-    1. Create hosts file domain: **`sweden.dev.local`**
-    1. Create IIS binding: **`sweden.dev.local`**
+    1. Modify your hosts file to add the domain: **`sweden.dev.local`**
+    1. Add a new IIS binding to the habitat.dev.local site: **`sweden.dev.local`**
     1. Add <site> to **`/App_Config/Include/Project/Sitecore.Demo.Group.config`** in the Sitecore.Demo.Group project.
         - duplicate the `<site name='group'>` node
         - set `name="sweden"`
