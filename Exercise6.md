@@ -1,6 +1,6 @@
 # Exercise 6
 
-In this exercise, we will add an additional site to the solution to support a complex multi-site and multi-language scenario.
+In this exercise, we will add an additional site to the solution to support a complex multi-site and multi-language scenario. We'll look at multi tenant, and how to leverage other features from Habitat in our tenant solution.
 
 ## Adding an additional site
 
@@ -39,7 +39,7 @@ In this exercise, we will add an additional site to the solution to support a co
     1. In a new browser window (either an incognito window, or use a different browser altogether), navigate to http://sweden.dev.local
     1. Switch back to your content editor browser window, and navigate to **`/sitecore/content/group/global/dictionary`** and see that the items are created
         * Navigate to the Dictionary Entries under each Dictionary Folder
-        * For each Dictionary Entry, add Swedish text to the Swedish version of the item.
+        * For each Dictionary Entry, add Swedish (or Unique) text to the Swedish version of the item.
 1. Setup Home Page presentation
     1. Copy final layout from **`/Sitecore/Content/Group/Home`** to **`/Sitecore/Content/Group/Sweden`**
         * In Content Editor, turn on Raw Values and Standard Fields from the _View_ tab.
